@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //populate buttons list
         int numButtons=10;
         buttons=new ArrayList<>();
-        String specialButtons[]={"c","open_bracket","close_bracket","ac","plus","devider","multiple","minus","equal","cos","sin","tan"};
+        String specialButtons[]={"c","open_bracket","close_bracket","dot","ac","plus","devider","multiple","minus","equal","cos","sin","tan"};
         for(int i=0;i<numButtons;i++){
             int buttonId=getResources().getIdentifier("button_"+i,"id",getPackageName());
             buttons.add(assignedId(buttonId));
